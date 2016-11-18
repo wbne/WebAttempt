@@ -1,0 +1,8 @@
+#parralax
+  position: relative
+  height: 400px
+  background:white;
+  size contain
+  position: top cunter 
+  attachment: fixed
+  z-index: -1
