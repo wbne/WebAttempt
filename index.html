@@ -54,12 +54,18 @@
 				left: 250px;
 			}
 		</style>
-		<style>
-			img{display: block;margin: 0 auto;}
-			body{background:black;color:#00ccff;}
-			.center{text-align: center; font-size:25px}
-			#copy{position:relative;bottom:10px}
-		</style>	
+		<script>
+		var a = false;
+		$(document).click(function(){
+			$("img").css("position", "absolute");
+			a = true;
+		});
+		$(document).mousemove(function(e){
+			if(a){
+				$("img").css({left:e.pageX - 300, top:e.pageY - 240});
+			}    						
+		});	
+			</script>
 		</head>
 	</body>
 	<head>
