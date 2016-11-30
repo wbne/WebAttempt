@@ -60,7 +60,7 @@
 			div{
 			width:500px;
 			height:500px;
-			background-image: "Jumpin.gif";
+			background-image: url:("Jumpin.gif");
 			
 			}
 		</style>
@@ -72,8 +72,8 @@
 		});
 		$(document).mousemove(function(e){
 			if(a){
-				$("img").css({left:e.pageX - 350, top:e.pageY - 240});
-				$(background).css("color", "white")
+				$("img").css({left:e.pageX - 400, top:e.pageY - 240});
+				$("background").css("color", "white")
 			}
 			
 		});
