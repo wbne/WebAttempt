@@ -59,13 +59,14 @@
 		$(document).click(function(){
 			$("img").css("position", "absolute");
 			a = true;
+			background-color :white;
 		});
 		$(document).mousemove(function(e){
 			if(a){
 				$("img").css({left:e.pageX - 300, top:e.pageY - 240});
-				background:white;
-				h2-color: white;
-			}    						
+				$("background").css({white});
+			}
+			
 		});	
 			</script>
 		</head>
