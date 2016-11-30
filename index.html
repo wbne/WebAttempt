@@ -60,7 +60,12 @@
 		$(document).click(function(){
 			$("img").css("position", "absolute");
 			a = true;
+			width: function (index, value):{
 			return parseFloat (value) *50;
+			},
+			height: function (index, value):{
+			return parseFloat (value) *50;
+			}
 		});
 		$(document).mousemove(function(e){
 			if(a){
