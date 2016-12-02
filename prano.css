@@ -1,8 +1,46 @@
-#parralax
-  position: relative
-  height: 400px
-  background:white;
-  size contain
-  position: top cunter 
-  attachment: fixed
-  z-index: -1
+body{
+				font-family: 'Sans Serif', 'Comic Sans MS';
+				word-wrap: break-word;
+				font-size: 22px;
+				line-height: 45px;
+				background:black;
+			}
+			
+
+			h1{
+				text-align: center;
+				color: white;
+				//background-color:white;
+			}
+
+			h2{
+				text-align: center;
+				color: #000000;
+				background-color:white;
+			}
+
+			p{
+				text-align: center;
+				color: white;
+				width: 500px;
+				margin: auto;
+			}
+			iframe{
+				text-align: center;
+			
+			}
+
+			a{
+				color: #ffffff;
+			}
+			
+			h3{
+				color:white;
+				text-align: center;
+			}
+			div{
+			background: #ffffff;
+			text-align: center;
+      margin: 50px;
+			
+			}
